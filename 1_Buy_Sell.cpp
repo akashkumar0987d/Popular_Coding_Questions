@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int buysell(vector<int>arr){
-    int buy,profit;
+    int buy,profit=0;
     buy=INT_MAX;
     for(int i=0;i<arr.size();i++){
         if(buy<arr[i]){
